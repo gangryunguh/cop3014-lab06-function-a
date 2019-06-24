@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.13)
-project(cop3014_lab_function_a)
+cmake_minimum_required(VERSION 3.8)
+project(cop3014_lab06_function_a)
 
 set(CMAKE_CXX_STANDARD 11)
 
