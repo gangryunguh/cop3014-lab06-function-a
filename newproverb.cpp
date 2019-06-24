@@ -10,6 +10,7 @@
 using namespace std;
 
 // Fill in the prototype of the function writeProverb.
+void writeProverb(int);
 
 int main()
 {
@@ -48,4 +49,11 @@ int main()
 void writeProverb(int number)
 {
 	// Fill in the body of the function to accomplish what is described above
+	cout << "Now is the time for all good men to come to the aid of their ";
+
+	if (number ==1)
+		cout << "party" << endl;
+	else
+		cout << "country" << endl;
+	return;
 }
