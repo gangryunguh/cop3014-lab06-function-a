@@ -35,6 +35,7 @@ int main()
 	computePaycheck(payRate, hours, grossPay, netPay);
 
 	// Fill in the code to output grossPay
+	cout << "The gross pay is $" << grossPay << endl;
 
 	cout << "The net pay is $" << netPay << endl;
 
@@ -74,4 +75,9 @@ void printDescription() // The function heading
 void computePaycheck(float rate, int time, float& gross, float& net)
 {
 	// Fill in the code to find gross pay and net pay
+	gross = rate * time;
+	net = gross - (gross * .15);
+
+	cout << "The gross pay is $" << gross << endl;
+	cout << "The net pay is $" << net << endl;
 }
