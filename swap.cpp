@@ -8,6 +8,7 @@
 using namespace std;
 
 // define a function prototype for my_swap
+void my_swap(float&, float&);
 
 int main()
 {
@@ -49,3 +50,10 @@ int main()
 //***********************************************************************
 
 // define the function my_swap below.
+void my_swap(float &a, float &b) {
+    float temp;
+    temp = a;
+    a = b;
+    b = temp;
+    return;
+}
